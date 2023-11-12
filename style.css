@@ -108,7 +108,7 @@ article img {
   background-color: #e5e7eb;
   padding: 0 300px;
   height: auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .quote p {
@@ -123,4 +123,28 @@ article img {
   padding-right: 7px;
   padding-bottom: 7px;
   margin-right: 10px;
+}
+
+.box {
+  background-color: #3882f6;
+  margin: 20px 200px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.message {
+  padding: 10px 80px;
+  color: #f9faf8;
+}
+
+.signup button {
+  color: #fff;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  font-size: 16px;
 }
