@@ -18,6 +18,10 @@ header {
   color: white;
 }
 
+header h1 {
+  font-size: 24px;
+}
+
 ul {
   display: flex;
   list-style-type: none;
@@ -26,7 +30,8 @@ ul {
 
 ul li a {
   text-decoration: none;
-  color: white;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 main {
@@ -40,13 +45,16 @@ main {
 }
 
 .hero-text {
-  font-size: large;
+  font-size: 24px;
   margin-left: 20px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 .hero-text h2 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero-text button {
