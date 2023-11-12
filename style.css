@@ -101,3 +101,26 @@ article img {
   overflow: hidden;
   border: 3px solid blue;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 0 300px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+.quote b {
+  text-align: right;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  margin-right: 10px;
+}
